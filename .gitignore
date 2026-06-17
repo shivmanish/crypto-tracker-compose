@@ -1,0 +1,65 @@
+# ==========================================================================
+# Android / Kotlin / Jetpack Compose .gitignore
+# ==========================================================================
+
+# --- Gradle ---------------------------------------------------------------
+.gradle/
+
+# --- Build output (generated — never commit) ------------------------------
+/build/
+/app/build/
+**/build/
+/captures/
+release/
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+
+# --- Kotlin ---------------------------------------------------------------
+.kotlin/
+
+# --- Local config (machine-specific — points to YOUR SDK path) ------------
+local.properties
+
+# --- Signing / secrets (NEVER commit) -------------------------------------
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+secrets.properties
+*.p12
+*.pem
+
+# --- Android Studio / IntelliJ IDEA ---------------------------------------
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deploymentTargetDropDown.xml
+.idea/shelf/
+.idea/.name
+.idea/gradle.xml
+.idea/misc.xml
+# Team conventions you MAY choose to commit instead of ignore:
+.idea/codeStyles/
+.idea/inspectionProfiles/
+
+# --- Native build (NDK / CMake) -------------------------------------------
+.externalNativeBuild/
+.cxx/
+
+# --- Logs & temp ----------------------------------------------------------
+*.log
+*.hprof
+*.tmp
+
+# --- OS files -------------------------------------------------------------
+.DS_Store
+Thumbs.db
