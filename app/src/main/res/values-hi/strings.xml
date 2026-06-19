@@ -1,0 +1,59 @@
+<resources>
+    <!-- Launcher label (localized) -->
+    <string name="app_name">क्रिप्टो ट्रैकर</string>
+
+    <!-- App / screens -->
+    <string name="app_title">क्रिप्टो ट्रैकर</string>
+    <string name="markets_title">मार्केट</string>
+    <string name="settings">सेटिंग्स</string>
+
+    <!-- Markets / sections -->
+    <string name="live_label">लाइव / कॉइनगेको</string>
+    <string name="market_cap_short">टॉप 20 · 24घं</string>
+    <string name="vol_24h_short">वॉल्यूम 24घं</string>
+    <string name="trending_label">ट्रेंडिंग · 24घं</string>
+    <string name="coins_count">%1$d सिक्के →</string>
+    <string name="column_asset">एसेट</string>
+    <string name="column_price">कीमत · 24घं</string>
+    <string name="source_coin_gecko">○ स्रोत · कॉइनगेको</string>
+
+    <!-- Search -->
+    <string name="search_hint">कॉइन खोजें</string>
+
+    <!-- Coin detail / stats -->
+    <string name="market_stats">मार्केट आँकड़े</string>
+    <string name="stat_market_cap">मार्केट कैप</string>
+    <string name="stat_volume_24h">वॉल्यूम 24घं</string>
+    <string name="stat_all_time_high">सर्वकालिक उच्च</string>
+    <string name="stat_all_time_low">सर्वकालिक निम्न</string>
+    <string name="stat_circulating_supply">प्रचलित आपूर्ति</string>
+    <string name="stat_max_supply">अधिकतम आपूर्ति</string>
+    <string name="uncapped">∞ असीमित</string>
+    <string name="about_coin">%1$s के बारे में</string>
+    <string name="rank_label">रैंक #%1$d</string>
+
+    <!-- Status / errors / empty states -->
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="error_title">कुछ गलत हो गया</string>
+    <string name="offline_banner">आप ऑफ़लाइन हैं — सहेजा गया डेटा दिखा रहे हैं</string>
+    <string name="empty_coins_title">दिखाने के लिए कोई कॉइन नहीं</string>
+    <string name="offline_title">आप ऑफ़लाइन हैं</string>
+    <string name="search_offline_message">खोज के लिए इंटरनेट कनेक्शन चाहिए। दोबारा कनेक्ट करके पुनः प्रयास करें।</string>
+    <string name="no_results_title">कोई परिणाम नहीं</string>
+    <string name="partial_offline_note">ऑफ़लाइन सीमित डेटा — पूरी जानकारी के लिए कनेक्ट करें</string>
+    <string name="detail_offline_message">इस कॉइन को देखने के लिए इंटरनेट से कनेक्ट करें।</string>
+    <string name="no_results">\"%1$s\" से मेल खाता कोई कॉइन नहीं</string>
+    <string name="rate_limited">दर सीमा पार हो गई। कृपया थोड़ी देर प्रतीक्षा करें।</string>
+
+    <!-- Favorites -->
+    <string name="favorite">पसंदीदा</string>
+    <string name="favorite_added">पसंदीदा में जोड़ा गया</string>
+    <string name="favorite_removed">पसंदीदा से हटाया गया</string>
+
+    <!-- Settings: language + theme -->
+    <string name="language">भाषा</string>
+    <string name="theme">थीम</string>
+    <string name="theme_system">सिस्टम</string>
+    <string name="theme_light">लाइट</string>
+    <string name="theme_dark">डार्क</string>
+</resources>

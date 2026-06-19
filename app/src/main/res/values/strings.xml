@@ -1,3 +1,59 @@
 <resources>
-    <string name="app_name">Crypto Tracket</string>
+    <!-- Launcher label -->
+    <string name="app_name">Crypto Tracker</string>
+
+    <!-- App / screens -->
+    <string name="app_title">Crypto Tracker</string>
+    <string name="markets_title">Markets</string>
+    <string name="settings">Settings</string>
+
+    <!-- Markets / sections -->
+    <string name="live_label">LIVE / COINGECKO</string>
+    <string name="market_cap_short">TOP 20 · 24H</string>
+    <string name="vol_24h_short">VOL 24H</string>
+    <string name="trending_label">TRENDING · 24H</string>
+    <string name="coins_count">%1$d COINS →</string>
+    <string name="column_asset">ASSET</string>
+    <string name="column_price">PRICE · 24H</string>
+    <string name="source_coin_gecko">○ SOURCE · COINGECKO</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search coins</string>
+
+    <!-- Coin detail / stats -->
+    <string name="market_stats">MARKET STATS</string>
+    <string name="stat_market_cap">MARKET CAP</string>
+    <string name="stat_volume_24h">VOLUME 24H</string>
+    <string name="stat_all_time_high">ALL-TIME HIGH</string>
+    <string name="stat_all_time_low">ALL-TIME LOW</string>
+    <string name="stat_circulating_supply">CIRCULATING SUPPLY</string>
+    <string name="stat_max_supply">MAX SUPPLY</string>
+    <string name="uncapped">∞ uncapped</string>
+    <string name="about_coin">ABOUT %1$s</string>
+    <string name="rank_label">RANK #%1$d</string>
+
+    <!-- Status / errors / empty states -->
+    <string name="retry">Retry</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="offline_banner">You\'re offline — showing cached data</string>
+    <string name="empty_coins_title">No coins to show</string>
+    <string name="offline_title">You\'re offline</string>
+    <string name="search_offline_message">Search needs an internet connection. Reconnect and try again.</string>
+    <string name="no_results_title">No results</string>
+    <string name="partial_offline_note">Limited data offline — connect for full details</string>
+    <string name="detail_offline_message">Connect to the internet to view this coin.</string>
+    <string name="no_results">No coins match \"%1$s\"</string>
+    <string name="rate_limited">Rate limit hit. Please wait a moment.</string>
+
+    <!-- Favorites -->
+    <string name="favorite">Favorite</string>
+    <string name="favorite_added">Added to favorites</string>
+    <string name="favorite_removed">Removed from favorites</string>
+
+    <!-- Settings: language + theme -->
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
 </resources>

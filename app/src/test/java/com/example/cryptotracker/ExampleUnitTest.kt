@@ -1,4 +1,4 @@
-package com.example.cryptotracket
+package com.example.cryptotracker
 
 import org.junit.Test
 
